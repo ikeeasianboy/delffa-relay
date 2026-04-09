@@ -8,7 +8,7 @@ const express = require('express');
 const app = express();
 app.use(express.json());
 
-const SECRET = process.env.SECRET_KEY || 'YOUR_SHARED_SECRET';
+const SECRET = process.env.SECRET_KEY || 'Ikeeasianboy123zx';
 
 let pendingCommands = [];  // queue of commands waiting for Roblox
 let results = {};          // commandId -> result
